@@ -53,6 +53,41 @@ body {
     color: var(--main-bg-color)
 }
 
+/****** Header ***********/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height :79px;
+}
+
+.logo-clickable{
+    height: 19px;
+    margin: 30px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    width: 328.6px;
+    height: 35px;
+    justify-content: space-around;
+}
+
+.liens-menu{
+    color: black;
+    text-decoration: none;    
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+ 
+.liens-menu:hover{
+    color: var(--main-color);
+    border-top:2px var(--main-color) solid;
+  
+
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
