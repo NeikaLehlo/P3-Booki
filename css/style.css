@@ -119,6 +119,8 @@ header{
 
 .search-location-dot i{
     color:black;
+    width: 14px;
+    height: 18px;
 }
 
 .search-box{
@@ -149,6 +151,46 @@ header{
 
 .search-button i{
     display: none;
+}
+
+/****** Filtres ***********/
+
+.filtres-bar{
+    display: flex;
+    align-items: center;
+}
+
+.filtres-title{
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700px;
+    margin: 0px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.filtres-buttons{
+    display: flex;
+    height: 50px;
+    width : 668px;
+    justify-content:space-between;
+}
+
+.filtres-button{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border : 2px solid #d9d9d9;
+    border-radius: 25px;
+    padding: 0 20px;
+}
+
+.filtres-button-text{
+    padding-left:10px;
+}
+
+.filtres-button:hover{
+    background-color: var(--filter-bg-color);
 }
 
 /****** Hebergements And Populaires ***********/
