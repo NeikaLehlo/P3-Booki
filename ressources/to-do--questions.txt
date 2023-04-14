@@ -1,0 +1,13 @@
+HEADER :
+	TO DO:
+		- Review the size. not "1440px" . ( main-conteneur padding left and right 50px???)
+		- Don't forget to put the right links.
+
+RECHERCHE:
+	QUESTIONS:
+		- What's "hug" dimension?
+
+		
+		
+
+	

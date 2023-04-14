@@ -18,8 +18,8 @@
 <body>
     <div class="main-container">
         <header>
-            <a href="index.html" >
-                <img src="./images/logo/Booki.png" alt="Logo booki clickable pour retourner à l'accueil du site" class="logo-clickable">
+            <a href="index.html">
+                <img class="logo-clickable" src="./images/logo/Booki.png" alt="Logo booki clickable pour retourner à l'accueil du site" >
             </a>
         
             <nav>
@@ -36,8 +36,65 @@
 
         </header>
         <main>
+
+            <div class="recherche-and-filtres">
+
+                <section class="recherche">
+
+                    <div class="recherche-title">
+                        <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
+                        <p>En plein centre-ville ou en pleine nature</p>
+                    </div>
+
+                    <form method="get" action="">
+                        <p class="search-bar">
+                          <label class="search-location-dot" for="location"><i class="fa-solid fa-location-dot"></i></label>
+                          <input class="search-box" type="text" name="recherche" id="recherche" placeholder="Ville, Pays">
+                          <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i>
+                            <p class="search-button-text">Rechercher</p></button>
+                        </p>
+                    </form>
+                    
+                </section>
+
+                <section class="filtres">
+
+                    <div class="filtres-bar">
+                        <h3 class="filtres-title">Filtres</h3>
+
+                        <div class="filtres-buttons">
+                            <div class="filtres-button">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <p class="filtres-button-text">Économique</p>
+                            </div>
+                            <div class="filtres-button">
+                                <i class="fa-solid fa-person"></i>
+                                <p class="filtres-button-text">Familial</p>
+                            </div>
+                            <div class="filtres-button">
+                                <i class="fa-solid fa-heart"></i>
+                                <p class="filtres-button-text">Romantique</p>
+                            </div>
+                            <div class="filtres-button">
+                                <i class="fa-solid fa-fire"></i>
+                                <p class="filtres-button-text">Nos pépites</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="filtres-info">
+                        <i class="fa-solid fa-info"></i>
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
+                 
+                </section>
+
+            </div>
+
+
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
 
                 </section>
                 <section class="populaires">
