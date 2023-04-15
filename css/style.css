@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0px;
 }
 
 .main-container {
@@ -55,36 +56,45 @@ body {
 }
 
 /****** Header ***********/
-header{
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height :79px;
-    /* width: 1440px; */
-    /* margin: 0px auto; */
+    margin-bottom: 30px;
     /* background-color: burlywood; */
 }
 
-.logo-clickable{
+.logo-clickable {
     height: 19px;
+    padding: 30px;
 }
 
-.menu{
+nav{
     display: flex;
-    list-style: none;
-    width: 328.6px;
+    justify-content: center;
     height: 35px;
-    justify-content: space-around;
+    width: 328.6px;
 }
 
-.liens-menu{
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+    width: 244px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.liens-menu {
     color: black;
     text-decoration: none;    
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
  
-.liens-menu:hover{
+.liens-menu:hover {
     color: var(--main-color);
     border-top:2px var(--main-color) solid;
   
@@ -92,8 +102,14 @@ header{
 }
 
 /****** Recherche And Filtres ***********/
-.recherche-and-filtres{
-    padding-left: 20px;
+.recherche-and-filtres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 1340px;
+    height: 281px;
+
 }
 
 /****** Recherche ***********/
@@ -103,11 +119,11 @@ header{
 
 .search-bar{
     display: flex;
-    margin: 35px 0px;
+    /* margin: 35px 0px; */
     height: 50px;
 }
    
-.search-location-dot{
+.search-location-dot {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,13 +133,13 @@ header{
     border-radius: 15px 0px 0px 15px;
 }
 
-.search-location-dot i{
+.search-location-dot i {
     color:black;
     width: 14px;
     height: 18px;
 }
 
-.search-box{
+.search-box {
     width: 195px;
     border-radius: 0;
     border: 1px solid var(--main-bg-color);
@@ -132,7 +148,7 @@ header{
     text-align: center;
 }
 
-.search-button{
+.search-button {
     display:flex;
     width: 132px;
     border-radius: 0px 15px 15px 0px;
@@ -143,24 +159,24 @@ header{
     align-items: center;
 }
 
-.search-button-text{
+.search-button-text {
     color: white;
     font-size: 18px;
     font-weight: 700;
 }
 
-.search-button i{
+.search-button i {
     display: none;
 }
 
 /****** Filtres ***********/
 
-.filtres-bar{
+.filtres-bar {
     display: flex;
     align-items: center;
 }
 
-.filtres-title{
+.filtres-title {
     height: 50px;
     font-size: 18px;
     font-weight: 700px;
@@ -169,29 +185,45 @@ header{
     align-items: center;
 }
 
-.filtres-buttons{
+.filtres-buttons {
     display: flex;
     height: 50px;
     width : 668px;
     justify-content:space-between;
 }
 
-.filtres-button{
+.filtres-button {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     border : 2px solid #d9d9d9;
     border-radius: 25px;
     padding: 0 20px;
 }
 
-.filtres-button-text{
+.filtres-button-text {
     padding-left:10px;
 }
 
-.filtres-button:hover{
+.filtres-button:hover {
     background-color: var(--filter-bg-color);
 }
+
+.filtres-info {
+    display: flex;
+    align-items: center;
+}
+
+.icone-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--main-bg-color);
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {

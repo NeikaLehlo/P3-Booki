@@ -6,6 +6,8 @@ HEADER :
 RECHERCHE:
 	QUESTIONS:
 		- What's "hug" dimension?
+		- Can you calculate directly on the CSS ?
+		
 
 		
 		
