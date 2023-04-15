@@ -106,20 +106,24 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 50px;
-    width: 1340px;
+    margin: 0 50px 35px 50px;
     height: 281px;
 
 }
 
 /****** Recherche ***********/
 .recherche-title p{
-    margin: 8px 0px;
+    margin: 8px 0px 0px 0px;
+}
+
+form{
+    width: 377px;
+    height: 50px;
 }
 
 .search-bar{
     display: flex;
-    /* margin: 35px 0px; */
+    margin: 0px;
     height: 50px;
 }
    
@@ -211,6 +215,7 @@ nav{
 .filtres-info {
     display: flex;
     align-items: center;
+    height: 24px;
 }
 
 .icone-info {
