@@ -114,7 +114,8 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 50px 35px 50px;
+    margin-bottom: 35px;
+    padding: 0 50px;
     height: 281px;
 
 }
@@ -247,6 +248,7 @@ form{
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
+    margin-bottom: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -386,6 +388,70 @@ form{
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+/****** Activites ***********/
+
+.activites {
+    padding: 0px 50px;
+    margin-bottom: 35px;
+}
+
+.activites-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.activites a{
+    text-decoration: none;
+}
+
+.activites a:active{
+    color: black;
+}
+
+.activites a:visited{
+    color: black;
+}
+
+.activites-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.activites-cards a{
+    width: 25%;
+}
+
+.activites-cards .card {
+    margin-top: 33px;
+    height: 439px;
+    padding: 0;
+}
+
+.activites-cards img {
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 19px;
+    gap: 10px;
+    height: 59px;
+}
+
+
+
 
 
 
