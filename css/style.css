@@ -84,19 +84,19 @@ header {
     /* background-color: burlywood; */
 }
 
-.logo-clickable {
+.header-logo {
     height: 19px;
     padding: 30px;
 }
 
-nav{
+.header-nav{
     display: flex;
     justify-content: center;
     height: 35px;
     width: 328.6px;
 }
 
-.menu {
+.header-list {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -107,12 +107,12 @@ nav{
     padding: 0;
 }
 
-.liens-menu { 
+.header-link { 
     padding-top: 14px;
     padding-bottom: 14px;
 }
  
-.liens-menu:hover {
+.header-link:hover {
     color: var(--main-color);
     border-top:2px var(--main-color) solid;
 }
