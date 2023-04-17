@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" >
     <!-- <script src="https://kit.fontawesome.com/bb05921b09.js" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -48,12 +48,14 @@
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
 
-                <form method="get" action="">
-                    <p class="search-bar">
-                        <label class="search-location-dot" for="location"><i class="fa-solid fa-location-dot"></i></label>
-                        <input class="search-box" type="text" name="recherche" id="recherche" placeholder="Ville, Pays">
-                        <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i>
-                        <p class="search-button-text">Rechercher</p></button>
+                <form method="get" action=null>
+                    <p class="recherche-bar">
+                        <label class="recherche-location-dot" for="recherche"><i class="fa-solid fa-location-dot"></i></label>
+                        <input class="recherche-box" type="text" name="recherche" id="recherche" placeholder="Ville, Pays">
+                        <button class="recherche-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Rechercher
+                        </button>
                     </p>
                 </form>
 
@@ -83,7 +85,7 @@
                 </div>
 
                 <div class="filtres-info">
-                    <div class="icone-info">
+                    <div class="filtres-info-icone">
                         <i class="fa-solid fa-info fa-2xs"></i>
                     </div>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
