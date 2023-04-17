@@ -7,6 +7,8 @@ QUESTIONS:
 	- What's "hug" dimension?
 	- Can you calculate directly on the CSS?
 	- section =/= div?
+	- :active not working?
+	
 
 
 		
