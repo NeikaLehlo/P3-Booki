@@ -1,6 +1,6 @@
 TO DO:
 	- Review the size. not "1440px" . ( main-conteneur padding left and right 50px???)
-	- Don't forget to put the right links.
+	✔ Don't forget to put the right links.
 	- Review h1-6.
 
 QUESTIONS:
@@ -8,7 +8,8 @@ QUESTIONS:
 	- Can you calculate directly on the CSS?
 	- section =/= div?
 	- :active not working?
-	
+	- can I rename pictures?
+
 
 
 		
