@@ -1,15 +1,15 @@
 TO DO:
-	- Review the size. not "1440px" . ( main-conteneur padding left and right 50px???)
+	✔ Review the size. not "1440px" . ( main-conteneur padding left and right 50px???)
 	✔ Don't forget to put the right links.
-	- Review h1-6.
+	✔ Review h1-6.
 
 QUESTIONS:
 	- What's "hug" dimension?
 	- Can you calculate directly on the CSS?
-	- section =/= div?
+	✔ section =/= div?
 	- :active not working?
 	- can I rename pictures?
-
+	✔ search bar *2 ? or just search button?
 
 
 		
