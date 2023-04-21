@@ -140,7 +140,7 @@ header {
 .recherche-bar{
     display: flex;
     margin: 0px;
-    height: 50px;
+    height: 48px;
     width: 377px;
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
@@ -151,10 +151,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-bg-color);
-    width: 50px;
+    flex-basis: 50px;
     height: 100%;
     border-radius: 15px 0px 0px 15px;
+    background-color: var(--main-bg-color);
 }
 
 .fa-location-dot {
@@ -162,15 +162,17 @@ header {
 }
 
 .recherche-box {
+    display: flex;
+    flex-grow: 1;
     width: 195px;
+    padding: 0px;
     border-radius: 0;
     border : none;
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    padding: 0px;
-    
 }
+
 ::placeholder{
     color:black;
     opacity: 1;
@@ -180,16 +182,20 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 132px;
+    flex-basis: 132px;
+    height: 50px;
+    padding: 0;
+    margin: -1px;
     border-radius: 0px 15px 15px 0px;
     border: 1px solid var(--main-color);
     background-color: var(--main-color);
+    cursor: pointer; 
+}
+
+.recherche-button-text{
     color: white;
     font-size: 18px;
     font-weight: 700;
-    padding: 0;
-    margin: -1px;
-    cursor: pointer; 
 }
 
 .recherche-button-loupe {
@@ -571,27 +577,23 @@ footer{
         border-top : none;
     }
 
-    /* .recherche-and-filtres{
-        margin: 0 20px 35px 20px;
-    } */
+    .recherche-bar{
+        width: 100%;
+    }
 
-    /* .recherche-button {
+    .recherche-button{
+        flex-basis: 50px;
+        border-radius: 15px;
+    }
+
+    .recherche-button-text {
         display: none;
     }
 
     .recherche-button-loupe{
         display: flex;
-        width: 49px;
-        border-radius: 15px;
-        border-color: var(--main-color);
-        border-style: none;
-        background-color: var(--main-color);
-        justify-content: center;
-        align-items: center;
-        cursor: pointer; 
         color: white;
-
-    } */
+    }
 
 
 }
