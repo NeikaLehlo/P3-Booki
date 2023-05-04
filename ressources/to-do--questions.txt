@@ -1,15 +1,11 @@
 TO DO:
-	✔ Review the size. not "1440px" . ( main-conteneur padding left and right 50px???)
-	✔ Don't forget to put the right links.
-	✔ Review h1-6.
+	✔ CSS and HTML validator
 
 QUESTIONS:
-	- What's "hug" dimension?
-	- Can you calculate directly on the CSS?
-	✔ section =/= div?
-	- :active not working?
-	- can I rename pictures?
-	✔ search bar *2 ? or just search button?
+	✔ What's better? : to put a height on the card or on the img? i.e -> on the content or on the container?
+	✔ Border box ex: l.30 . Just to be sure.  ( why on l.277 ?)
+	✔ Gap or padding?
+	✔ <a> on card ?
 
 
 		
